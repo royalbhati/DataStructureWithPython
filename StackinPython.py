@@ -15,10 +15,10 @@ class stack: #Defining a stack class to store our remainder in stck
 			return True
 		else:
 			return False
-def peek(self):#returns top element of the stack
-		if self.items==[]:
-			return 'Empty Stack' #returns empty stack if the stack is empty
-		else:
-			return self.items[len(self.items)-1]	
-def size(self):#returns the number of elements
-      return len(self.items)
+	def peek(self):#returns top element of the stack
+			if self.items==[]:
+				return 'Empty Stack' #returns empty stack if the stack is empty
+			else:
+				return self.items[len(self.items)-1]	
+	def size(self):#returns the number of elements
+	      return len(self.items)
